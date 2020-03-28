@@ -1,0 +1,4 @@
+server:
+  port : 8080
+api:
+  key: 89234f7ea484eaeac30b4df6878eb210

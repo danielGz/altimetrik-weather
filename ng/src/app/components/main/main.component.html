@@ -1,0 +1,16 @@
+<div *ngFor="let forecastinfo of forecasts | async">
+    <div *ngFor="let forecast of forecastinfo.daily">
+    <h3>time : {{forecast.time}}</h3>
+	<h3>temperature: {{forecast.temperature}}</h3>
+	<h3>sunriseTime: {{forecast.sunriseTime}}</h3>
+	<h3>sunsetTime: {{forecast.sunsetTime}}</h3>
+	<h3>temperatureHigh: {{forecast.temperatureHigh}}</h3>
+	<h3>temperatureHighTime: {{forecast.temperatureHighTime}}</h3>
+	<h3>temperatureLow: {{forecast.temperatureLow}}</h3>
+	<h3>temperatureLowTime: {{forecast.temperatureLowTime}}</h3>
+  </div>
+  <br>
+  <br>
+  <br>
+  <h2>A year ago</h2>
+</div>  
